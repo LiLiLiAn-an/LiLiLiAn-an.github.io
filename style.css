@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h4 {
+    text-align: center;
+}
+
+#help {
+    display: block;
+    margin: auto;
+} 
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    color: #333;
+}
+
+.table-container {
+    overflow-x: auto;
+} 
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}
+
+/* tr:nth-child(even) {
+     background-color: #f2f2f2; 
+}  */
+
+button.delete-btn {
+    background-color: red;
+}
+
+button.edit-btn {
+    background-color: antiquewhite;
+}
+
+.highlight {
+    background-color: yellow;
+}
